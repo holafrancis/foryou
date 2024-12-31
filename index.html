@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>francispogi</title>
+    <link rel="icon" type="image/png" href="C:\Users\allan\OneDrive\Desktop\NEWYEARPROJ\img\cat-5.jpg"/>
+  </head>
+
+  <body>
+    <main class="container">
+      <audio id="audioElement" class="media" controls autoplay loop>
+        <source src="hehe.mp3" type="audio/mpeg">
+      </audio>
+
+      <img id="catImg" class="cat-img" src="img/cat-0.jpg" alt="Picture of a cat" />
+      <video id="videoElement" class="media" controls autoplay loop hidden>
+        <source src="cat-yes.mp4" type="video/mp4">
+      </video>
+
+      <p class="title">Start your year with me (≧◡≦)</p>
+      <div class="buttons">
+        <button type="button" class="btn btn--yes" onclick="handleYesClick()">Yes</button>
+        <button type="button" class="btn btn--no">No</button>
+      </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
